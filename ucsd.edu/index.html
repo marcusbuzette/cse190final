@@ -68,6 +68,18 @@
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'http://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-K826VG');</script>
+
+
+  <script>
+  window.addEventListener('load', function(){
+      var allimages= document.getElementsByTagName('img');
+      for (var i=0; i<allimages.length; i++) {
+          if (allimages[i].getAttribute('data-src')) {
+              allimages[i].setAttribute('src', allimages[i].getAttribute('data-src'));
+          }
+      }
+  }, false)
+</script>
    
    
   </head>
@@ -687,7 +699,7 @@
        
       <div class="col-sm-4 no-gutter">
         <div class="panel panel-default">
-          <img alt="Celebrating Sally Ride" class="img-responsive" src="_images/about/Sally-Ride-Stamp.jpg"/>
+          <img alt="Celebrating Sally Ride" class="img-responsive" src="" data-src="_images/about/Sally-Ride-Stamp.jpg"/>
           <div class="panel-heading">
             <p class="panel-news-date small">May 31,  2018</p>
             <h4 class="panel-news-title">Celebrating Sally Ride</h4>
@@ -701,7 +713,7 @@
        
       <div class="col-sm-4 no-gutter">
         <div class="panel panel-default">
-          <img alt="UC San Diego Nets No. 20 Spot on New List of Globe’s Best Universities" class="img-responsive" src="_images/about/CWUR-20.jpg"/>
+          <img alt="UC San Diego Nets No. 20 Spot on New List of Globe’s Best Universities" class="img-responsive" src="" data-src="_images/about/CWUR-20.jpg"/>
           <div class="panel-heading">
             <p class="panel-news-date small">May 29, 2018</p>
             <h4 class="panel-news-title">UC San Diego Nets No. 20 Spot on New List of Globe’s Best Universities</h4>
@@ -715,7 +727,7 @@
        
       <div class="col-sm-4 no-gutter">
         <div class="panel panel-default">
-          <img alt="Coursera Offers Free Certificate Courses for Faculty, Staff and Students" class="img-responsive" src="_images/about/Coursera_Flammer.jpg"/>
+          <img alt="Coursera Offers Free Certificate Courses for Faculty, Staff and Students" class="img-responsive" src="" data-src="_images/about/Coursera_Flammer.jpg"/>
           <div class="panel-heading">
             <p class="panel-news-date small">May 24,  2018</p>
             <h4 class="panel-news-title">Coursera Offers Free Certificate Courses for Faculty, Staff and Students</h4>
@@ -742,7 +754,7 @@
       <div class="row">
         <div class="col-xs-6 col-sm-3 footer-brand-wrap">
           <a alt="UC San Diego Homepage" class="footer-brand" href="index.html">
-            <img alt="Brand" class="img-responsive" src="_resources/img/logo_UCSD_white.png"/>
+            <img alt="Brand" class="img-responsive" src="" data-src="_resources/img/logo_UCSD_white.png"/>
           </a>
         </div>
         <div class="col-xs-6 col-sm-9 footer-address-wrap no-gutter">
@@ -800,22 +812,22 @@
             <div class="col-xs-6 no-gutter">
               <ul class="list-inline">
                 <li>
-                  <a href="https://www.facebook.com/UCSanDiego/"><img alt="facebook" src="_resources/img/icon_fb.png"/></a>
+                  <a href="https://www.facebook.com/UCSanDiego/"><img alt="facebook" src="" data-src="_resources/img/icon_fb.png"/></a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/ucsandiego/"><img alt="instagram" src="_resources/img/icon_ig.png"/></a>
+                  <a href="https://www.instagram.com/ucsandiego/"><img alt="instagram" src="" data-src="_resources/img/icon_ig.png"/></a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/company/university-of-california-at-san-diego/"><img alt="linkedin" src="_resources/img/icon_linked.png"/></a>
+                  <a href="https://www.linkedin.com/company/university-of-california-at-san-diego/"><img alt="linkedin" src="" data-src="_resources/img/icon_linked.png"/></a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/ucsandiego/"><img alt="twitter" src="_resources/img/icon_tw.png"/></a>
+                  <a href="https://twitter.com/ucsandiego/"><img alt="twitter" src="" data-src="_resources/img/icon_tw.png"/></a>
                 </li>
               </ul>
             </div>
             <div class="col-xs-6">
               <a alt="apply now" href="https://admissions.universityofcalifornia.edu/applicant/login.htm">
-                <button class="btn btn-primary btn-apply" type="button"><span><img alt="check" src="_resources/img/icon_check.png"/></span> Apply Now</button>
+                <button class="btn btn-primary btn-apply" type="button"><span><img alt="check" src="" data-src="_resources/img/icon_check.png"/></span> Apply Now</button>
               </a>
             </div>
           </div>
@@ -951,7 +963,7 @@ b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
 s.parentNode.insertBefore(b, s);})();
 </script>
 <noscript>
-<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=46649&amp;fmt=gif" />
+<img height="1" width="1" style="display:none;" alt="" src="" data-src="https://dc.ads.linkedin.com/collect/?pid=46649&amp;fmt=gif" />
 </noscript>
 
 
