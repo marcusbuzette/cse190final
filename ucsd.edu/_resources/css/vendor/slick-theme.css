@@ -2,7 +2,7 @@
 /* Slider */
 .slick-loading .slick-list
 {
-    background: #fff url('http://ucsd.edu/_resources/css/vendor/ajax-loader.gif') center center no-repeat;
+    background: #fff url('https://ajay-marcusucsdmin.firebaseapp.com/_resources/css/vendor/ajax-loader.gif') center center no-repeat;
 }
 
 /* Icons */
@@ -12,8 +12,8 @@
     font-weight: normal;
     font-style: normal;
 
-    src: url('http://ucsd.edu/_resources/css/vendor/fonts/slick.eot');
-    src: url('http://ucsd.edu/_resources/css/vendor/fonts/slick.eot?#iefix') format('embedded-opentype'), url('http://ucsd.edu/_resources/css/vendor/fonts/slick.woff') format('woff'), url('http://ucsd.edu/_resources/css/vendor/fonts/slick.ttf') format('truetype'), url('http://ucsd.edu/_resources/css/vendor/fonts/slick.svg#slick') format('svg');
+    src: url('https://ajay-marcusucsdmin.firebaseapp.com/_resources/css/vendor/fonts/slick.eot');
+    src: url('https://ajay-marcusucsdmin.firebaseapp.com/_resources/css/vendor/fonts/slick.eot?#iefix') format('embedded-opentype'), url('https://ajay-marcusucsdmin.firebaseapp.com/_resources/css/vendor/fonts/slick.woff') format('woff'), url('https://ajay-marcusucsdmin.firebaseapp.com/_resources/css/vendor/fonts/slick.ttf') format('truetype'), url('https://ajay-marcusucsdmin.firebaseapp.com/_resources/css/vendor/fonts/slick.svg#slick') format('svg');
 }
 /* Arrows */
 .slick-prev,

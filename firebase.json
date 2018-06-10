@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "ucsd.edu",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

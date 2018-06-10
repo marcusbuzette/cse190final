@@ -27,8 +27,9 @@
 
     
   
-
-
+<!-- LINK TO MANIFEST FILE -->
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#3367D6"/>
 
 
 <!-- Site-specific CSS files -->
@@ -63,10 +64,25 @@
   
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K826VG"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  <!-- --------- START  SW.JS ----- -->
+
+<script>
+// Check that service workers are registered
+if ('serviceWorker' in navigator) {
+  // Use the window load event to keep the page load performant
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js', { scope: '/'});
+  });
+}
+</script>
+
+  <!-- --------- END  SW.JS ----- -->
+
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'http://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-K826VG');</script>
 
 

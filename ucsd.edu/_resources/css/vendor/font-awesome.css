@@ -6,12 +6,12 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('http://ucsd.edu/_resources/fonts/font_awesome/fontawesome-webfont.eot?v=4.6.3');
-  src: url('http://ucsd.edu/_resources/fonts/font_awesome/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), 
-  url('http://ucsd.edu/_resources/fonts/font_awesome/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), 
-  url('http://ucsd.edu/_resources/fonts/font_awesome/fontawesome-webfont.woff?v=4.6.3') format('woff'), 
-  url('http://ucsd.edu/_resources/fonts/font_awesome/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), 
-  url('http://ucsd.edu/_resources/fonts/font_awesome/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+  src: url('https://ajay-marcusucsdmin.firebaseapp.com//_resources/fonts/font_awesome/fontawesome-webfont.eot?v=4.6.3');
+  src: url('https://ajay-marcusucsdmin.firebaseapp.com//_resources/fonts/font_awesome/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), 
+  url('https://ajay-marcusucsdmin.firebaseapp.com//_resources/fonts/font_awesome/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), 
+  url('https://ajay-marcusucsdmin.firebaseapp.com//_resources/fonts/font_awesome/fontawesome-webfont.woff?v=4.6.3') format('woff'), 
+  url('https://ajay-marcusucsdmin.firebaseapp.com//_resources/fonts/font_awesome/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), 
+  url('https://ajay-marcusucsdmin.firebaseapp.com//_resources/fonts/font_awesome/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
