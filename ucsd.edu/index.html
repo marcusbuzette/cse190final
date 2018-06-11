@@ -497,7 +497,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-            <section class="jumbotron jumbotron-callout-sm jumbotron-research" data-module="callout-image-small">
+            <section class="lazy_back0" data-module="callout-image-small">
               <div class="container">
                 <div class="text-indent text-indent-h2">
                   <h2>Research and Innovation  </h2>
@@ -594,8 +594,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                   </div>
                   <div class="col-sm-4 no-gutter">
-                    <div class="instragram-feed">
-                      <a class="lazy_back7" alt="UC San Diego's Official Instagram Page" href=""></a>
+                    <div class="lazy_back7">
+                      <a alt="UC San Diego's Official Instagram Page" href="https://www.instagram.com/ucsandiego/"></a>
                     </div>
                   </div>
                 </div>
@@ -986,13 +986,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 allimages[i].setAttribute('src', allimages[i].getAttribute('data-src'));
               }
             }
+            $('.lazy_back0').addClass('jumbotron jumbotron-callout-sm jumbotron-research');
             $('.lazy_back1').addClass('jumbotron jumbotron-attend');
             $('.lazy_back2').addClass('jumbotron jumbotron-callout-sm jumbotron-campus-life');
             $('.lazy_back3').addClass('col-sm-8 campus-life');
             $('.lazy_back4').addClass('jumbotron jumbotron-map');
             $('.lazy_back5').addClass('jumbotron jumbotron-image-bg jumbotron-callout-sm jumbotron-research campaign-mod');
             $('.lazy_back6').addClass('jumbotron jumbotron-event-multiple');
-            $('.lazy_back7').attr('href','https://www.instagram.com/ucsandiego/');
+            $('.lazy_back7').addClass('instragram-feed');
+            
 
     }
 
